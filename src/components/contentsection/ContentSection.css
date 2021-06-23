@@ -1,0 +1,30 @@
+.posters_container {
+  position: static;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  margin-left: 180px;
+  border-radius: 10px;
+  max-width: 1450px;
+  background-image: linear-gradient(0.35turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.posters_container h2 {
+  margin-left: 70px;
+  align-items: center;
+  text-shadow: 0 3px black;
+}
+
+.posters_container .row_poster {
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+@media all and (max-width: 650px) {
+  .content_poster {
+    margin-left: 100px;
+    position: static;
+    width: auto;
+    height: auto;
+  }
+}

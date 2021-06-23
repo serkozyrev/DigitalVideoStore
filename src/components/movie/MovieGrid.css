@@ -1,0 +1,21 @@
+.movie-container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+@media screen and (max-width: 498px) {
+  .movie-container {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 780px) {
+  .movie-container {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}

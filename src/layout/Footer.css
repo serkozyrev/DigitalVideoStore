@@ -1,0 +1,21 @@
+.page-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #3d1daf;
+  color: white;
+  align-items: flex-start;
+}
+
+.page-footer ul {
+  margin-bottom: 5px;
+  flex-direction: row;
+}
+
+.page-footer ul li {
+  margin-right: 20px;
+}
+
+ion-icon {
+  color: white;
+}

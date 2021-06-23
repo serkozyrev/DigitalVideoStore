@@ -1,0 +1,31 @@
+.row_listing .row__posters {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+  flex-flow: row nowrap;
+  max-width: 90.1rem;
+  margin-left: 90px;
+}
+.row_listing {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+.row__poster {
+  margin-right: 10px;
+}
+h5 {
+  margin-left: 70px;
+}
+.row__poster img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.row__poster img:hover {
+  transition: transform 450ms;
+  transform: scale(1.08);
+}

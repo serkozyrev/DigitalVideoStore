@@ -17,14 +17,11 @@
 .featured__poster {
   margin-right: 30px;
   object-fit: contain;
+  height: 300px;
+  border-radius: 10px;
 }
 h5 {
   margin-left: 70px;
-}
-.featured__poster img {
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
 }
 
 .featured__poster img:hover {

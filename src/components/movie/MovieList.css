@@ -1,0 +1,38 @@
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+  max-width: 90.1rem;
+  margin-left: 90px;
+  flex-flow: row nowrap;
+}
+.row_listing {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+.row__poster {
+  margin-right: 10px;
+  object-fit: contain;
+}
+h5 {
+  margin-left: 70px;
+}
+.row__poster img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.row__poster img:hover {
+  transition: transform 450ms;
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 500px) {
+  .row__posters {
+    margin-left: 20px;
+  }
+}

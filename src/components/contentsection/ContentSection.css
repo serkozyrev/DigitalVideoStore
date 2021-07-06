@@ -1,0 +1,53 @@
+.posters_container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  margin-left: 180px;
+  border-radius: 10px;
+  overflow-y: hidden;
+  padding-right: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1450px;
+  background-image: linear-gradient(0.35turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.posters_container h2 {
+  margin-left: 70px;
+  align-items: center;
+  text-shadow: 0 3px black;
+}
+
+.posters_container .row_poster {
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 499px) {
+  .posters_container {
+    margin-left: 20px;
+    position: static;
+    overflow-x: scroll;
+  }
+  .posters_container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .posters_container {
+    margin-left: 90px;
+    position: static;
+  }
+}
+@media screen and (min-width: 769px) {
+  .posters_container {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1372px) {
+  .posters_container {
+    margin-left: 190px;
+  }
+}

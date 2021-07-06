@@ -1,0 +1,30 @@
+.page-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #3d1daf;
+  color: white;
+  align-items: flex-start;
+}
+
+.page-footer ul {
+  margin-bottom: 5px;
+  flex-direction: row;
+}
+
+.page-footer ul li {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

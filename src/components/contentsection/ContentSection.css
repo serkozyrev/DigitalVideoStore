@@ -68,12 +68,12 @@
 
 @media screen and (min-width: 1300px) {
   .posters_container {
-    margin-left: 30px;
+    margin-left: 110px;
     width: 1260px;
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1369px) {
   .posters_container {
     margin-left: 200px;
     width: 1260px;

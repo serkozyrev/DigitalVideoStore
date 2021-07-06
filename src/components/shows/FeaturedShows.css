@@ -34,6 +34,17 @@ h5 {
 
 @media screen and (max-width: 500px) {
   .row .featured__posters {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .row .featured__posters {
     margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1301px) {
+  .row .featured__posters {
+    margin-left: 100px;
   }
 }

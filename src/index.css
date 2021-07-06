@@ -74,12 +74,6 @@ body {
     order: 1;
   }
 
-  .page-footer {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .page-footer ul {
     margin-bottom: 0;
   }

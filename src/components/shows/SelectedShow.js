@@ -4,11 +4,11 @@ import "./SelectedShow.css";
 
 const SelectedShow = (props) => {
   return (
-    <div className="grid">
+    <div className="grid_show show_details">
       <div className="info_show_section">
         <div className="show_header">
           <img className="show_image" src={props.poster} alt={props.title} />
-          <span className="show-title grid">
+          <span className="show-title grid_show">
             <div>{props.title}</div>
             <div>{props.release}</div>
           </span>

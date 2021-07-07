@@ -1,7 +1,9 @@
 .movie_details {
   height: 600px;
   margin: 2rem auto;
+  width: 1100px;
   overflow: hidden;
+  justify-content: center;
   border-radius: 14px;
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.25), 0 16px 16px rgba(0, 0, 0, 0.25);
 }
@@ -10,12 +12,11 @@
   height: 100%;
   z-index: 2;
   border-radius: 10px;
-  padding-left: 90px;
 }
 
-.grid {
+.grid_movie {
   display: grid;
-  grid-template-columns: auto 360px;
+  grid-template-columns: auto auto;
 }
 .info_section .movie_header {
   height: 40%;
@@ -51,33 +52,55 @@
 .blur_back {
   border-radius: 11px;
   width: 360px;
+  margin-right: 20px;
+  margin-top: 20px;
+  max-height: 530px;
 }
 
-@media screen and (min-width: 769px) {
-  .movie_desc {
-    width: 50%;
-  }
-  .movie_header {
-    width: 70%;
-  }
-  .blur_back {
-    background-position: -100% 10% !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .movie_card {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .movie_details {
     width: 95%;
     margin: 70px auto;
     min-height: 350px;
     height: auto;
+  }
+
+  .info_section .movie_desc {
+    margin-top: 20px;
+  }
+  .blur_back {
+    margin-left: 90px;
+    margin-bottom: 30px;
+    background-position: 50% 50% !important;
+  }
+
+  .movie_header {
+    width: 90%;
+  }
+
+  .movie_desc {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .movie_details {
+    width: 95%;
+    margin: 70px auto;
+    min-height: 350px;
+    height: auto;
+  }
+  .grid_movie {
+    display: flex;
+    flex-direction: column;
   }
   .info_section {
     display: inline-grid;
     padding-left: 10px;
   }
   .blur_back {
-    width: 100%;
+    width: 60%;
+    margin-left: 140px;
+    margin-bottom: 30px;
     background-position: 50% 50% !important;
   }
 
@@ -88,5 +111,53 @@
 
   .movie_desc {
     width: 100%;
+  }
+}
+@media screen and (max-width: 411px) {
+  .movie_details {
+    width: 95%;
+    margin: 70px auto;
+    min-height: 350px;
+    height: auto;
+  }
+  .grid_movie {
+    display: flex;
+    flex-direction: column;
+  }
+  .info_section {
+    display: inline-grid;
+    padding-left: 10px;
+  }
+  .blur_back {
+    width: 70%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    background-position: 50% 50% !important;
+  }
+
+  .movie_header {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .movie_desc {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .movie_desc {
+    width: 70%;
+  }
+
+  .info_section .movie_desc {
+    margin-top: 20px;
+  }
+
+  .info_section {
+    padding-left: 10px;
+  }
+  .movie_header {
+    width: 90%;
   }
 }

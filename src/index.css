@@ -60,6 +60,7 @@ body {
     background-color: teal;
     color: white;
     border-radius: 4px;
+    padding: 5px 10px;
     border: 1px solid;
     cursor: pointer;
   }
@@ -76,6 +77,16 @@ body {
 
   .page-footer ul {
     margin-bottom: 0;
+  }
+  .btn {
+    font-family: inherit;
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid;
+    cursor: pointer;
   }
 }
 

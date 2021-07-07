@@ -3,11 +3,11 @@ import "./SelectedMovie.css";
 
 const SelectedMovie = (props) => {
   return (
-    <div className="grid">
+    <div className="grid_movie movie_details">
       <div className="info_section">
         <div className="movie_header">
           <img className="movie_image" src={props.poster} alt={props.title} />
-          <span className="movie-title grid">
+          <span className="movie-title grid_movie">
             <div>{props.title}</div>
             <div>{props.release}</div>
           </span>

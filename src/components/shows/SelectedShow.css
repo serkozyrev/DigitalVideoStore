@@ -1,6 +1,7 @@
 .show_details {
   height: 600px;
   margin: 2rem auto;
+  width: 1100px;
   overflow: hidden;
   border-radius: 14px;
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.25), 0 16px 16px rgba(0, 0, 0, 0.25);
@@ -13,9 +14,9 @@
   padding-left: 90px;
 }
 
-.grid {
+.grid_show {
   display: grid;
-  grid-template-columns: auto 360px;
+  grid-template-columns: auto auto;
 }
 .info_show_section .show_header {
   height: 40%;
@@ -54,22 +55,36 @@
 .big_image {
   border-radius: 11px;
   margin-right: 20px;
+  margin-top: 20px;
   max-height: 530px;
   width: 360px;
 }
 
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .show_desc {
-    width: 50%;
+    width: 100%;
+  }
+  .info_show_section .show_desc {
+    margin-top: 20px;
   }
   .show_header {
-    width: 70%;
+    width: 90%;
+  }
+  .info_show_section {
+    padding-left: 10px;
   }
   .big_image {
     background-position: -100% 10% !important;
+    margin-left: 160px;
+    margin-bottom: 10px;
+  }
+  .show_details {
+    width: 95%;
+    margin: 70px auto;
+    min-height: 350px;
+    height: auto;
   }
 }
-
 @media screen and (max-width: 768px) {
   .show_details {
     width: 95%;
@@ -77,7 +92,7 @@
     min-height: 350px;
     height: auto;
   }
-  .grid {
+  .grid_show {
     display: flex;
     flex-direction: column;
   }
@@ -86,18 +101,69 @@
     padding-left: 10px;
   }
   .big_image {
-    width: 90%;
+    width: 60%;
     background-position: 50% 50% !important;
-    margin-left: 20px;
+    margin-left: 140px;
+    margin-bottom: 10px;
   }
 
   .show_header {
-    width: 100%;
+    width: 90%;
     margin-top: 25px;
   }
 
   .info_show_section .show_desc {
     width: 100%;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .show_details {
+    width: 95%;
+    margin: 70px auto;
+    min-height: 350px;
+    height: auto;
+  }
+  .grid_show {
+    display: flex;
+    flex-direction: column;
+  }
+  .info_show_section {
+    display: inline-grid;
+    padding-left: 10px;
+  }
+  .big_image {
+    width: 70%;
+    background-position: 50% 50% !important;
+    margin-left: 35px;
+    margin-bottom: 10px;
+  }
+
+  .show_header {
+    width: 90%;
+    margin-top: 25px;
+  }
+
+  .info_show_section .show_desc {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .show_desc {
+    width: 70%;
+  }
+  .info_show_section .show_desc {
+    margin-top: 20px;
+  }
+  .show_header {
+    width: 90%;
+  }
+  .info_show_section {
+    padding-left: 10px;
+  }
+  .big_image {
+    background-position: -100% 10% !important;
   }
 }

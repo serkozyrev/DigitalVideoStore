@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 768px) {
   .logo {
-    width: 100px;
+    width: 150px;
   }
   .page__header {
     justify-content: space-around;

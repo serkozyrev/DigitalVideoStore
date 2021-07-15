@@ -16,7 +16,7 @@
 
 .grid_movie {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 400px;
 }
 .info_section .movie_header {
   height: 40%;

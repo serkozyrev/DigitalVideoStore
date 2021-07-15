@@ -13,10 +13,13 @@
   z-index: 2;
   border-radius: 10px;
 }
-
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 .grid_movie {
   display: grid;
-  grid-template-columns: auto 400px;
+  grid-template-columns: 700px auto;
 }
 .info_section .movie_header {
   height: 40%;
@@ -80,6 +83,9 @@
 
   .movie_desc {
     width: 100%;
+  }
+  .grid_movie {
+    grid-template-columns: auto auto;
   }
 }
 @media (min-width: 757px) and (max-width: 768px) {

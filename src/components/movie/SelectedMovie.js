@@ -7,7 +7,7 @@ const SelectedMovie = (props) => {
       <div className="info_section">
         <div className="movie_header">
           <img className="movie_image" src={props.poster} alt={props.title} />
-          <span className="movie-title grid_movie">
+          <span className="movie-title grid">
             <div>{props.title}</div>
             <div>{props.release}</div>
           </span>

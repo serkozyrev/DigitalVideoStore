@@ -9,7 +9,7 @@ const SliderImage = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("http://localhost:3001/featured/");
+      const response = await fetch("http://localhost:5000/slider");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
@@ -20,10 +20,9 @@ const SliderImage = () => {
       for (const key in responseData) {
         loadedMovies.push({
           id: key,
-          poster: responseData[key].poster,
+          ...responseData[key],
         });
       }
-
       setPosts(loadedMovies);
     };
 
@@ -42,7 +41,7 @@ const SliderImage = () => {
       className="slideImg"
     >
       {posts.map((post) => (
-        <div className="slidePoster">
+        <div className="slidePoster" key={post.id}>
           <img className="slideImg" src={post.poster} alt="" width="50%" />
         </div>
       ))}

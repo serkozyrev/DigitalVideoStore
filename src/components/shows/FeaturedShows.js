@@ -7,7 +7,7 @@ const FeaturedShows = (props) => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("http://localhost:3001/featured_shows/");
+      const response = await fetch("http://localhost:5000/featured-shows");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
@@ -34,7 +34,7 @@ const FeaturedShows = (props) => {
       <h5>{props.title}</h5>
       <div className="featured__posters">
         {posts.map((post) => (
-          <div className="featured__poster">
+          <div className="featured__poster" key={post.id}>
             <img src={post.poster} alt={post.title} />
           </div>
         ))}

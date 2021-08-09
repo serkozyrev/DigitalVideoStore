@@ -12,13 +12,7 @@ const SelectedMovie = (props) => {
             <div>{props.release}</div>
           </span>
 
-          <span className="type">
-            {props.genres.map((genre) => (
-              <span>
-                {genre} {""}
-              </span>
-            ))}
-          </span>
+          <span className="type">{props.genres}</span>
         </div>
         <div className="movie_desc">
           <p>{props.overview}</p>

@@ -1,8 +1,8 @@
 import React from "react";
-import MovieGrid from "../components/movie/MovieGrid";
+import MovieGridLayout from "../components/movie/MovieGridLayout";
 
 const MovieListing = () => {
-  return <MovieGrid />;
+  return <MovieGridLayout />;
 };
 
 export default MovieListing;

@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import { Route, Switch, Redirect } from "react-router";
 
 import Layout from "./layout/Layout";
@@ -6,11 +7,15 @@ import MovieDetails from "./pages/MovieDetails";
 import HomePage from "./pages/HomePage";
 import ShowListing from "./pages/ShowListing";
 import ShowDetails from "./pages/ShowDetails";
+import AuthContext from "./components/context/auth-context";
+import Profile from "./pages/Profile";
 
 import "./App.css";
 import Auth from "./pages/Auth";
 
 function App() {
+  const authCtx = useContext(AuthContext);
+
   return (
     <Layout>
       <Switch>
@@ -32,9 +37,15 @@ function App() {
         <Route path="/shows/:showId">
           <ShowDetails />
         </Route>
-        <Route path="/auth" exact>
-          <Auth />
+        <Route path="/profile">
+          <Profile />
         </Route>
+        {!authCtx.isLoggedIn && (
+          <Route path="/auth" exact>
+            <Auth />
+          </Route>
+        )}
+        {authCtx.isLoggedIn && <Redirect to="/homepage" />}
         <Route path="*">
           <Redirect to="/" />
         </Route>

@@ -10,18 +10,13 @@ const MovieDetails = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch(`http://localhost:3001/movies/${movieId}`);
+      const response = await fetch(`http://localhost:5000/movies/${movieId}`);
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
       const responseData = await response.json();
-      const selectedMovie = {
-        id: movieId,
-        ...responseData,
-      };
-      console.log(responseData);
-      setDetails(selectedMovie);
+      setDetails(responseData.body[0]);
       setIsLoading(false);
     };
 
@@ -42,12 +37,12 @@ const MovieDetails = () => {
     <Fragment>
       <SelectedMovie
         key={details.movieId}
-        id={details.movieId}
-        title={details.title}
-        overview={details.overview}
-        poster={details.poster}
-        genres={details.genres}
-        release={details.release_date}
+        id={details[0].movieId}
+        title={details[0].title}
+        overview={details[0].overview}
+        poster={details[0].poster}
+        genres={details[0].genres}
+        release={details[0].release_date}
       />
     </Fragment>
   );

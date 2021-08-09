@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 
 import classes from "./Header.module.css";
+import AuthContext from "../components/context/auth-context";
 import logo from "../assets/logo.png";
 
 const Header = () => {
+  const authCtx = useContext(AuthContext);
   return (
     <header className={classes.page__header}>
       <div className={classes.logo}>
@@ -26,9 +28,25 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <NavLink to="/auth" className="btn">
-        Login/Registration
-      </NavLink>
+      {!authCtx.isLoggedIn && (
+        <NavLink to="/auth" className="btn">
+          Login/Registration
+        </NavLink>
+      )}
+      {authCtx.isLoggedIn && (
+        <div className={classes.profile}>
+          <span>
+            <NavLink to="/profile" activeClassName={classes.active}>
+              Profile
+            </NavLink>
+          </span>
+          <span onClick={authCtx.logout}>
+            <NavLink to="/homepage" className="btn">
+              Logout
+            </NavLink>
+          </span>
+        </div>
+      )}
     </header>
   );
 };

@@ -11,7 +11,7 @@ const ShowDetails = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch(`http://localhost:3001/shows/${showId}`);
+      const response = await fetch(`http://localhost:5000/shows/${showId}`);
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
@@ -19,10 +19,10 @@ const ShowDetails = () => {
       const responseData = await response.json();
       const selectedShow = {
         id: showId,
-        ...responseData,
+        ...responseData.body,
       };
-      console.log(responseData);
-      setShowDetails(selectedShow);
+      setShowDetails(responseData.body[0]);
+
       setIsLoading(false);
     };
 
@@ -42,13 +42,13 @@ const ShowDetails = () => {
       <SelectedShow
         key={showDetails.showId}
         id={showDetails.showId}
-        title={showDetails.title}
-        overview={showDetails.overview}
-        poster={showDetails.poster}
-        genres={showDetails.genres}
-        release={showDetails.release_date}
-        numberOfSeries={showDetails.numberOfSeries}
-        numberOfSeasons={showDetails.numberOfSeasons}
+        title={showDetails[0].title}
+        overview={showDetails[0].overview}
+        poster={showDetails[0].poster}
+        genres={showDetails[0].genres}
+        release={showDetails[0].release_date}
+        numberOfSeries={showDetails[0].numberOfSeries}
+        numberOfSeasons={showDetails[0].numberOfSeasons}
       />
     </Fragment>
   );

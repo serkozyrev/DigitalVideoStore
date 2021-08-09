@@ -2,23 +2,24 @@ import React, { useEffect, useState } from "react";
 
 import Movie from "./Movie";
 
-const MovieGrid = () => {
+const SearchMovie = (props) => {
   const [posts, setPosts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  const fetchMovies = async () => {
+    const response = await fetch(
+      `http://localhost:5000/movies/search?title=${props.title}`
+    );
+
+    if (!response.ok) {
+      throw new Error("Something went wrong!");
+    }
+    const responseData = await response.json();
+
+    setPosts(responseData.body);
+    setIsLoading(false);
+  };
   useEffect(() => {
-    const fetchMovies = async () => {
-      const response = await fetch("http://localhost:5000/movies");
-
-      if (!response.ok) {
-        throw new Error("Something went wrong!");
-      }
-      const responseData = await response.json();
-
-      setPosts(responseData.body);
-      setIsLoading(false);
-    };
-
     try {
       fetchMovies().catch((error) => {});
     } catch (err) {}
@@ -45,4 +46,4 @@ const MovieGrid = () => {
   );
 };
 
-export default MovieGrid;
+export default SearchMovie;

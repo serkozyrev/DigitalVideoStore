@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 
-import Show from "./Show";
 import "./ShowGrid.css";
+import Show from "./Show";
+
 const ShowGrid = () => {
   const [shows, setShows] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
     const fetchShows = async () => {
-      const response = await fetch("http://localhost:3001/shows/");
+      const response = await fetch("http://localhost:5000/shows/");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

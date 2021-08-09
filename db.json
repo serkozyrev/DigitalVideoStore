@@ -1,7 +1,6 @@
 {
   "movies": [
     {
-      "id": "0",
       "title": "Shazam!",
       "poster": "https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
       "overview": "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
@@ -9,7 +8,6 @@
       "genres": ["Action", "Comedy", "Fantasy"]
     },
     {
-      "id": "1",
       "title": "Captain Marvel",
       "poster": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
       "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
@@ -17,7 +15,6 @@
       "genres": ["Action", "Adventure", "Science Fiction"]
     },
     {
-      "id": "2",
       "title": "Escape Room",
       "poster": "https://image.tmdb.org/t/p/w500/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
       "overview": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
@@ -25,7 +22,6 @@
       "genres": ["Thriller", "Action", "Horror", "Science Fiction"]
     },
     {
-      "id": "3",
       "title": "How to Train Your Dragon: The Hidden World",
       "poster": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
       "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
@@ -33,7 +29,6 @@
       "genres": ["Animation", "Family", "Adventure"]
     },
     {
-      "id": "4",
       "title": "Glass",
       "poster": "https://image.tmdb.org/t/p/w500/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg",
       "overview": "In a series of escalating encounters, security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
@@ -41,7 +36,6 @@
       "genres": ["Documentary"]
     },
     {
-      "id": "5",
       "title": "Doraemon the Movie: Nobita's Treasure Island",
       "poster": "https://image.tmdb.org/t/p/w500/xiLRClQmKSVAbiu6rgCRzNQjcSX.jpg",
       "overview": "The story is based on Robert Louis Stevenson's Treasure Island novel.",
@@ -49,7 +43,6 @@
       "genres": ["Animation"]
     },
     {
-      "id": "6",
       "title": "Dumbo",
       "poster": "https://image.tmdb.org/t/p/w500/deTOAcMWuHTjOUPQphwcPFFfTQz.jpg",
       "overview": "A young elephant, whose oversized ears enable him to fly, helps save a struggling circus, but when the circus plans a new venture, Dumbo and his friends discover dark secrets beneath its shiny veneer.",
@@ -57,7 +50,6 @@
       "genres": ["Adventure", "Family", "Fantasy"]
     },
     {
-      "id": "7",
       "title": "Avengers: Infinity War",
       "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
       "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
@@ -65,7 +57,6 @@
       "genres": ["Adventure", "Action", "Science Fiction"]
     },
     {
-      "id": "8",
       "title": "Us",
       "poster": "https://image.tmdb.org/t/p/w500/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
       "overview": "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.",
@@ -73,7 +64,6 @@
       "genres": ["Documentary", "Family"]
     },
     {
-      "id": "9",
       "title": "Bumblebee",
       "poster": "https://image.tmdb.org/t/p/w500/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg",
       "overview": "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.",
@@ -81,7 +71,6 @@
       "genres": ["Action", "Adventure", "Science Fiction"]
     },
     {
-      "id": "10",
       "title": "Cars",
       "poster": "https://image.tmdb.org/t/p/w500/qa6HCwP4Z15l3hpsASz3auugEW6.jpg",
       "overview": "Lightning McQueen, a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. On route across the country to the big Piston Cup Championship in California to compete against two seasoned pros, McQueen gets to know the town's offbeat characters.",
@@ -89,7 +78,6 @@
       "genres": ["Animation", "Adventure", "Comedy", "Family"]
     },
     {
-      "id": "11",
       "title": "Avengers: Endgame",
       "poster": "https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
       "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
@@ -97,7 +85,6 @@
       "genres": ["Adventure", "Science Fiction", "Action"]
     },
     {
-      "id": "12",
       "title": "Spider-Man: Into the Spider-Verse",
       "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
       "overview": "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson 'Kingpin' Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
@@ -111,7 +98,6 @@
       ]
     },
     {
-      "id": "13",
       "title": "Pet Sematary",
       "poster": "https://image.tmdb.org/t/p/w500/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg",
       "overview": "Louis Creed, his wife Rachel and their two children Gage and Ellie move to a rural home where they are welcomed and enlightened about the eerie 'Pet Sematary' located nearby. After the tragedy of their cat being killed by a truck, Louis resorts to burying it in the mysterious pet cemetery, which is definitely not as it seems, as it proves to the Creeds that sometimes dead is better.",
@@ -119,7 +105,6 @@
       "genres": ["Thriller", "Horror"]
     },
     {
-      "id": "14",
       "title": "Hellboy",
       "poster": "https://image.tmdb.org/t/p/w500/bk8LyaMqUtaQ9hUShuvFznQYQKR.jpg",
       "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
@@ -127,7 +112,6 @@
       "genres": ["Fantasy", "Action"]
     },
     {
-      "id": "15",
       "title": "After",
       "poster": "https://image.tmdb.org/t/p/w500/u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg",
       "overview": "A young woman falls for a guy with a dark secret and the two embark on a rocky relationship.",
@@ -135,7 +119,6 @@
       "genres": ["Mystery", "Drama"]
     },
     {
-      "id": "16",
       "title": "Redcon-1",
       "poster": "https://image.tmdb.org/t/p/w500/vVPrWngVJ2cfYAncBedQty69Dlf.jpg",
       "overview": "After a zombie apocalypse spreads from a London prison, the UK is brought to its knees. The spread of the virus is temporarily contained but, without a cure, it’s only a matter of time before it breaks its boundaries and the biggest problem of all… any zombies with combat skills are now enhanced. With the South East of England quarantined from the rest of the world using fortified borders, intelligence finds that the scientist responsible for the outbreak is alive and well in London. With his recovery being the only hope of a cure, a squad of eight Special Forces soldiers is sent on a suicide mission to the city, now ruled by the undead, with a single task: get him out alive within 72 hours by any means necessary. What emerges is an unlikely pairing on a course to save humanity against ever-rising odds.",
@@ -143,7 +126,6 @@
       "genres": ["Action", "Horror"]
     },
     {
-      "id": "17",
       "title": "Destroyer",
       "poster": "https://image.tmdb.org/t/p/w500/sHw9gTdo43nJL82py0oaROkXXNr.jpg",
       "overview": "Erin Bell is an LAPD detective who, as a young cop, was placed undercover with a gang in the California desert with tragic results. When the leader of that gang re-emerges many years later, she must work her way back through the remaining members and into her own history with them to finally reckon with the demons that destroyed her past.",
@@ -151,7 +133,6 @@
       "genres": ["Horror", "Thriller"]
     },
     {
-      "id": "18",
       "title": "Mary Poppins Returns",
       "poster": "https://image.tmdb.org/t/p/w500/uTVGku4LibMGyKgQvjBtv3OYfAX.jpg",
       "overview": "In Depression-era London, a now-grown Jane and Michael Banks, along with Michael's three children, are visited by the enigmatic Mary Poppins following a personal loss. Through her unique magical skills, and with the aid of her friend Jack, she helps the family rediscover the joy and wonder missing in their lives.",
@@ -159,7 +140,6 @@
       "genres": ["Documentary"]
     },
     {
-      "id": "19",
       "title": "Aquaman",
       "poster": "https://image.tmdb.org/t/p/w500/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
       "overview": "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne.",
@@ -167,7 +147,6 @@
       "genres": ["Action", "Adventure", "TV Movie"]
     },
     {
-      "id": "20",
       "title": "Happy Death Day 2U",
       "poster": "https://image.tmdb.org/t/p/w500/4tdnePOkOOzwuGPEOAHp8UA4vqx.jpg",
       "overview": "Collegian Tree Gelbman wakes up in horror to learn that she's stuck in a parallel universe. Her boyfriend Carter is now with someone else, and her friends and fellow students seem to be completely different versions of themselves. When Tree discovers that Carter's roommate has been altering time, she finds herself once again the target of a masked killer. When the psychopath starts to go after her inner circle, Tree soon realizes that she must die over and over again to save everyone.",
@@ -175,7 +154,6 @@
       "genres": ["Comedy", "Horror", "Science Fiction"]
     },
     {
-      "id": "21",
       "title": "Fate/stay night: Heaven’s Feel II. lost butterfly",
       "poster": "https://image.tmdb.org/t/p/w500/nInpnGCjhzVhsASIUAmgM1QIhYM.jpg",
       "overview": "Theatrical-release adaptation of the visual novel 'Fate/stay night', following the third and final route. (Part 2 of a trilogy.)",
@@ -183,7 +161,6 @@
       "genres": ["Animation", "Action", "Fantasy", "Drama"]
     },
     {
-      "id": "22",
       "title": "The Highwaymen",
       "poster": "https://image.tmdb.org/t/p/w500/4bRYg4l12yDuJvAfqvUOPnBrxno.jpg",
       "overview": "In 1934, Frank Hamer and Manny Gault, two former Texas Rangers, are commissioned to put an end to the wave of vicious crimes perpetrated by Bonnie Parker and Clyde Barrow, a notorious duo of infamous robbers and cold-blooded killers who nevertheless are worshiped by the public.",
@@ -191,7 +168,6 @@
       "genres": ["Music"]
     },
     {
-      "id": "23",
       "title": "The Kid Who Would Be King",
       "poster": "https://image.tmdb.org/t/p/w500/kBuvLX6zynQP0sjyqbXV4jNaZ4E.jpg",
       "overview": "Old-school magic meets the modern world when young Alex stumbles upon the mythical sword Excalibur. He soon unites his friends and enemies, and they become knights who join forces with the legendary wizard Merlin. Together, they must save mankind from the wicked enchantress Morgana and her army of supernatural warriors.",
@@ -199,7 +175,6 @@
       "genres": ["Action", "Adventure", "Fantasy", "Family"]
     },
     {
-      "id": "24",
       "title": "Kamen Rider Heisei Generations FOREVER",
       "poster": "https://image.tmdb.org/t/p/w500/kHMuyjlvNIwhCaDFiRwnl45wF7z.jpg",
       "overview": "In the world of Sougo Tokiwa and Sento Kiryu, their 'companions' are losing their memories one after the other as they're replaced by other people. The Super Time Jacker, Tid , appears before them. He orders his powerful underlings, Another Double and Another Den-O, to pursue a young boy called Shingo. While fighting to protect Shingo, Sougo meets Ataru, a young man who loves Riders, but Ataru says that Kamen Riders aren't real. What is the meaning of those words? While the mystery deepens, the true enemy that Sougo and Sento must defeat appears in the Kuriogatake mountain...",
@@ -209,7 +184,6 @@
   ],
   "featured_movies": [
     {
-      "id": "22",
       "title": "The Highwaymen",
       "poster": "https://image.tmdb.org/t/p/w500/4bRYg4l12yDuJvAfqvUOPnBrxno.jpg",
       "overview": "In 1934, Frank Hamer and Manny Gault, two former Texas Rangers, are commissioned to put an end to the wave of vicious crimes perpetrated by Bonnie Parker and Clyde Barrow, a notorious duo of infamous robbers and cold-blooded killers who nevertheless are worshiped by the public.",
@@ -217,7 +191,6 @@
       "genres": ["Music"]
     },
     {
-      "id": "19",
       "title": "Aquaman",
       "poster": "https://image.tmdb.org/t/p/w500/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
       "overview": "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne.",
@@ -225,7 +198,6 @@
       "genres": ["Action", "Adventure", "TV Movie"]
     },
     {
-      "id": "13",
       "title": "Pet Sematary",
       "poster": "https://image.tmdb.org/t/p/w500/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg",
       "overview": "Louis Creed, his wife Rachel and their two children Gage and Ellie move to a rural home where they are welcomed and enlightened about the eerie 'Pet Sematary' located nearby. After the tragedy of their cat being killed by a truck, Louis resorts to burying it in the mysterious pet cemetery, which is definitely not as it seems, as it proves to the Creeds that sometimes dead is better.",
@@ -233,7 +205,6 @@
       "genres": ["Thriller", "Horror"]
     },
     {
-      "id": "12",
       "title": "Spider-Man: Into the Spider-Verse",
       "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
       "overview": "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson 'Kingpin' Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
@@ -247,7 +218,6 @@
       ]
     },
     {
-      "id": "7",
       "title": "Avengers: Infinity War",
       "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
       "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
@@ -255,7 +225,6 @@
       "genres": ["Adventure", "Action", "Science Fiction"]
     },
     {
-      "id": "1",
       "title": "Captain Marvel",
       "poster": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
       "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
@@ -265,7 +234,6 @@
   ],
   "shows": [
     {
-      "id": "0",
       "title": "Loki",
       "poster": "https://townsquare.media/site/442/files/2021/03/loki-teaser-poster.jpg?w=1600&q=75",
       "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant”or help fix the timeline and stop a greater threat.",
@@ -275,7 +243,6 @@
       "genres": ["Drama", "Sci-Fi", "Fantasy"]
     },
     {
-      "id": "1",
       "title": "Lucifer",
       "poster": "https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_.jpg",
       "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
@@ -285,7 +252,6 @@
       "genres": ["Crime", "Sci-Fi", "Fantasy"]
     },
     {
-      "id": "2",
       "title": "Nancy Drew",
       "poster": "https://images-na.ssl-images-amazon.com/images/I/91MbxcX7GuL._AC_SY741_.jpg",
       "overview": "Nancy Drew makes plans to leave her hometown for college, but finds herself drawn into a supernatural murder mystery instead.",
@@ -295,7 +261,6 @@
       "genres": ["Mystery", "Drama", "Sci-Fi", "Fantasy"]
     },
     {
-      "id": "3",
       "title": "The Mrs Bradley Mysteries",
       "poster": "https://m.media-amazon.com/images/M/MV5BNTJlY2NhYzYtMmFjZC00NzAzLThiNTItNTA5M2Q0OWMyMjI5XkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_.jpg",
       "overview": "Paired with her reliable and devoted chauffeur, Mrs Bradley's finely honed skills of investigation seek out the truth behind the mysteries surrounding a death at the opera, crimes of passion at a circus, poisoning and family secrets.",
@@ -305,7 +270,6 @@
       "genres": ["Mystery", "Thriller"]
     },
     {
-      "id": "4",
       "title": "The Queen's Gambit",
       "poster": "https://images-na.ssl-images-amazon.com/images/I/61hscBMSo8L.jpg",
       "overview": "In a 1950 orphange, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction",
@@ -315,7 +279,6 @@
       "genres": ["Drama"]
     },
     {
-      "id": "5",
       "title": "How I Met Your Mother",
       "poster": "https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_.jpg",
       "overview": "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
@@ -325,7 +288,6 @@
       "genres": ["Comedy"]
     },
     {
-      "id": "6",
       "title": "Superman & Lois",
       "poster": "https://m.media-amazon.com/images/M/MV5BOTA2MDVhMWItNTYwYi00OTcyLWJjZmEtNTQ2NTAxMDQyYTQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
       "overview": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society.",
@@ -335,7 +297,6 @@
       "genres": ["Sci-Fi", "Action", "Adventure", "Drama"]
     },
     {
-      "id": "7",
       "title": "Riverdale",
       "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/riverdale-s3-vertical-main-pre-da-1589730068.jpg",
       "overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
@@ -345,7 +306,6 @@
       "genres": ["Mystery", "Drama", "Crime"]
     },
     {
-      "id": "8",
       "title": "The 100",
       "poster": "https://tv-fanatic-res.cloudinary.com/iu/s--g39QO0EC--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1589563694/attachment/the100s7p.jpg",
       "overview": "100 years in the future, when the Earth has been abandoned due to radioactivity, the last surviving humans live on an ark orbiting the planet — but the ark won't last forever. So the repressive regime picks 100 expendable juvenile delinquents to send down to Earth to see if the planet is still habitable.",
@@ -355,7 +315,6 @@
       "genres": ["Sci-Fi", "Drama", "Action", "Adventure"]
     },
     {
-      "id": "9",
       "title": "Jujutsu Kaisen",
       "poster": "https://m.media-amazon.com/images/I/719lXPPhoUL._AC_SX466_.jpg",
       "overview": "With his days numbered, high schooler Yuji decides to hunt down and consume the remaining 19 fingers of a deadly curse so it can die with him.",
@@ -365,7 +324,6 @@
       "genres": ["Animation", "Action", "Fantasy"]
     },
     {
-      "id": "10",
       "title": "Blacklist",
       "poster": "https://m.media-amazon.com/images/M/MV5BZDA1MzE3M2EtNTE4Ni00OGE4LWE1NjctYzFhMzA2NDgxMDIxXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg",
       "overview": "Raymond Red Reddington, one of the FBI's most wanted fugitives, surrenders in person at FBI Headquarters in Washington, D.C. He claims that he and the FBI have the same interests: bringing down dangerous criminals and terrorists. In the last two decades, he's made a list of criminals and terrorists that matter the most but the FBI cannot find because it does not know they exist. Reddington calls this 'The Blacklist'. Reddington will co-operate, but insists that he will speak only to Elizabeth Keen, a rookie FBI profiler.",
@@ -375,7 +333,6 @@
       "genres": ["Drama", "Crime", "Mystery"]
     },
     {
-      "id": "11",
       "title": "The Mentalist",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTQ5OTgzOTczM15BMl5BanBnXkFtZTcwMDM2OTY4MQ@@._V1_.jpg",
       "overview": "Patrick Jane, a former celebrity psychic medium, uses his razor sharp skills of observation and expertise at 'reading' people to solve serious crimes with the California Bureau of Investigation.",
@@ -385,7 +342,6 @@
       "genres": ["Crime", "Drama", "Mystery"]
     },
     {
-      "id": "12",
       "title": "The Mandalorian",
       "poster": "https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg",
       "overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
@@ -395,7 +351,6 @@
       "genres": ["Western", "Drama", "Sci-Fi", "Action", "Adventure"]
     },
     {
-      "id": "13",
       "title": "NCIS",
       "poster": "https://images-na.ssl-images-amazon.com/images/I/91f1xYoOUZL._AC_SY550_.jpg",
       "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has a shred of evidence connected to Navy and Marine Corps personnel, regardless of rank or position.",
@@ -405,7 +360,6 @@
       "genres": ["Crime", "Adventure", "Drama"]
     },
     {
-      "id": "14",
       "title": "Batwoman",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTc0YTdhNTYtMjI1MC00ZDQwLTljNTMtNGI3ODRlYzhhM2FiXkEyXkFqcGdeQXVyNzE3ODQxNjU@._V1_FMjpg_UX1000_.jpg",
       "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
@@ -415,7 +369,6 @@
       "genres": ["Mystery", "Crime", "Fantasy", "Action"]
     },
     {
-      "id": "15",
       "title": "Charmed",
       "poster": "https://i.pinimg.com/originals/87/58/a5/8758a5c7832de2d2b76a38cd92024f9a.jpg",
       "overview": "Three sisters (Prue, Piper and Phoebe) reunite and unlock their powers to become the Charmed Ones, the most powerful good witches of all time, whose prophesied destiny is to protect innocent lives from evil beings such as demons and warlocks. Each sister possesses unique magical powers that grow and evolve, while they attempt to maintain normal lives in modern day San Francisco.",
@@ -425,7 +378,6 @@
       "genres": ["Comedy", "Drama", "Fantasy", "Mystery"]
     },
     {
-      "id": "16",
       "title": "MidSomer Murders",
       "poster": "https://m.media-amazon.com/images/M/MV5BMjA5MmM5NjEtYjY2Yy00MzVmLThkMTYtYzcxMGE5MGFjMDQ2XkEyXkFqcGdeQXVyNDQ3NDM5OQ@@._V1_.jpg",
       "overview": "A veteran Detective Chief Inspector and his young Sergeant investigate murders around the regional community of Midsomer County.",
@@ -435,7 +387,6 @@
       "genres": ["Crime", "Drama", "Mystery"]
     },
     {
-      "id": "17",
       "title": "Sherlock",
       "poster": "https://images-na.ssl-images-amazon.com/images/I/714nEMf6oyS._AC_SY550_.jpg",
       "overview": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
@@ -445,7 +396,6 @@
       "genres": ["Crime", "Drama", "Mystery"]
     },
     {
-      "id": "18",
       "title": "Supernatural",
       "poster": "https://i.pinimg.com/originals/2a/05/5f/2a055f32017ea925eca64d3ebe6f93a0.jpg",
       "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way.",
@@ -455,7 +405,6 @@
       "genres": ["Drama", "Mystery", "Sci-Fi"]
     },
     {
-      "id": "19",
       "title": "MoonLighting",
       "poster": "https://m.media-amazon.com/images/M/MV5BOGYyMGVmMmMtOTVkMC00YzEzLTkzMDktYjc3MTJkYTkzM2RmXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_UY1200_CR104,0,630,1200_AL_.jpg",
       "overview": "After being duped and going bankrupt, model Maddie is convinced by David to become a partner in a detective agency. Together they solve various cases, while getting comfortable with each other.",
@@ -465,7 +414,6 @@
       "genres": ["Comedy", "Drama", "Mystery"]
     },
     {
-      "id": "20",
       "title": "Alf",
       "poster": "https://m.media-amazon.com/images/M/MV5BYmRhNzk2YWUtNWIxNC00YWM3LWI5ODEtN2IwOGQzYWEwMWJjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       "overview": "A furry alien wiseguy comes to live with a terran family after crashing into their garage.",
@@ -475,7 +423,6 @@
       "genres": ["Comedy", "Family"]
     },
     {
-      "id": "21",
       "title": "Agatha Christie's Poirot",
       "poster": "https://m.media-amazon.com/images/M/MV5BODljYzNlZTMtMWIwNi00N2QzLWE2ZTAtZDBmYzIwYzhlZDY2XkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_.jpg",
       "overview": "From England to Egypt, accompanied by his elegant and trustworthy sidekicks, the intelligent yet eccentrically-refined Belgian detective Hercule Poirot pits his wits against a collection of first class deceptions.",
@@ -487,7 +434,6 @@
   ],
   "featured_shows": [
     {
-      "id": "21",
       "title": "Agatha Christie's Poirot",
       "poster": "https://m.media-amazon.com/images/M/MV5BODljYzNlZTMtMWIwNi00N2QzLWE2ZTAtZDBmYzIwYzhlZDY2XkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_.jpg",
       "overview": "From England to Egypt, accompanied by his elegant and trustworthy sidekicks, the intelligent yet eccentrically-refined Belgian detective Hercule Poirot pits his wits against a collection of first class deceptions.",
@@ -497,7 +443,6 @@
       "genres": ["Crime", "Drama", "Mystery"]
     },
     {
-      "id": "18",
       "title": "Supernatural",
       "poster": "https://i.pinimg.com/originals/2a/05/5f/2a055f32017ea925eca64d3ebe6f93a0.jpg",
       "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way.",
@@ -507,7 +452,6 @@
       "genres": ["Drama", "Mystery", "Sci-Fi"]
     },
     {
-      "id": "15",
       "title": "Charmed",
       "poster": "https://i.pinimg.com/originals/87/58/a5/8758a5c7832de2d2b76a38cd92024f9a.jpg",
       "overview": "Three sisters (Prue, Piper and Phoebe) reunite and unlock their powers to become the Charmed Ones, the most powerful good witches of all time, whose prophesied destiny is to protect innocent lives from evil beings such as demons and warlocks. Each sister possesses unique magical powers that grow and evolve, while they attempt to maintain normal lives in modern day San Francisco.",
@@ -517,7 +461,6 @@
       "genres": ["Comedy", "Drama", "Fantasy", "Mystery"]
     },
     {
-      "id": "14",
       "title": "Batwoman",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTc0YTdhNTYtMjI1MC00ZDQwLTljNTMtNGI3ODRlYzhhM2FiXkEyXkFqcGdeQXVyNzE3ODQxNjU@._V1_FMjpg_UX1000_.jpg",
       "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
@@ -527,7 +470,6 @@
       "genres": ["Mystery", "Crime", "Fantasy", "Action"]
     },
     {
-      "id": "7",
       "title": "Riverdale",
       "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/riverdale-s3-vertical-main-pre-da-1589730068.jpg",
       "overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",

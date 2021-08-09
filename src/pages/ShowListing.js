@@ -1,9 +1,9 @@
 import React from "react";
 
-import ShowGrid from "../components/shows/ShowGrid";
+import ShowGridLayout from "../components/shows/ShowGridLayout";
 
 const ShowListing = () => {
-  return <ShowGrid />;
+  return <ShowGridLayout default={false} />;
 };
 
 export default ShowListing;

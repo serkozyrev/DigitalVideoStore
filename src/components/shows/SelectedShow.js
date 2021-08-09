@@ -12,13 +12,7 @@ const SelectedShow = (props) => {
             <div>{props.title}</div>
             <div>{props.release}</div>
           </span>
-          <span className="type">
-            {props.genres.map((genre) => (
-              <span>
-                {genre} {""}
-              </span>
-            ))}
-          </span>
+          <span className="type">{props.genres}</span>
 
           <div>Number of Seasons: {props.numberOfSeasons}</div>
           <div>Number of Series per Season: {props.numberOfSeries}</div>

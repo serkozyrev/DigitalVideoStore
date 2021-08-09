@@ -38,6 +38,7 @@ export const AuthContextProvider = (props) => {
   }
   const [token, setToken] = useState(initialToken);
   const [popupIsShown, setpopupIsShown] = useState(false);
+  const [username, setUsername] = useState("");
 
   const showModalHandler = () => {
     setpopupIsShown(true);
@@ -59,31 +60,40 @@ export const AuthContextProvider = (props) => {
     setToken(false);
     localStorage.removeItem("token");
     localStorage.removeItem("expirationTime");
+    localStorage.removeItem("userID");
 
     if (logoutTimer) {
       clearTimeout(logoutTimer);
     }
   }, []);
 
-  const loginHandler = (token, expirationTime) => {
+  const loginHandler = (token, userID, expirationTime) => {
     localStorage.setItem("expirationTime", expirationTime);
     localStorage.setItem("token", token);
+    localStorage.setItem("userID", userID);
+    console.log(userID);
     setToken(localStorage.getItem("token"));
+    setUsername(localStorage.getItem("userID"));
     const remainingTime = calculateRemainingTime(expirationTime);
 
     logoutTimer = setTimeout(logoutHandler, remainingTime);
   };
 
   useEffect(() => {
+    setUsername(localStorage.getItem("userID"));
+  }, [username]);
+
+  useEffect(() => {
     if (tokenData) {
       logoutTimer = setTimeout(logoutHandler, tokenData.duration);
     }
-  }, [tokenData, logoutHandler]);
+  }, [tokenData, logoutHandler, username]);
   const contextValue = {
     token,
     isLoggedIn: userIsLoggedIn,
     login: loginHandler,
     logout: logoutHandler,
+    username,
     popupIsShown,
     showModal: showModalHandler,
     closeModal: closeModalHandler,

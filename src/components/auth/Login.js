@@ -44,16 +44,15 @@ const Login = () => {
           }
         })
         .then((data) => {
-          console.log(data);
+          let username = data.userID;
           const expirationTime = new Date(
             new Date().getTime() + 60 * 60 * 1000
           );
-          if (data.message === "You login Successfully") {
-            alert(data.message);
+          if (data.response === "You login Successfully") {
+            alert(data.response);
 
             const token = true;
-            authCtx.login(token, expirationTime);
-            history.replace("/");
+            authCtx.login(token, username, expirationTime);
           } else {
             alert(data.message);
           }

@@ -1,7 +1,6 @@
 import React from "react";
 
 const ProfilePage = (props) => {
-  console.log(props);
   return (
     <div className="grid_movie movie_details">
       <div className="info_section">

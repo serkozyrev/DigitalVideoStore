@@ -61,11 +61,16 @@ export const AuthContextProvider = (props) => {
     localStorage.removeItem("token");
     localStorage.removeItem("expirationTime");
     localStorage.removeItem("userID");
+    setUsername("");
 
     if (logoutTimer) {
       clearTimeout(logoutTimer);
     }
   }, []);
+
+  useEffect(() => {
+    setUsername(localStorage.getItem("userID"));
+  }, [username]);
 
   const loginHandler = (token, userID, expirationTime) => {
     localStorage.setItem("expirationTime", expirationTime);

@@ -7,11 +7,16 @@ import "../components/ProfilePage.css";
 
 const Profile = (props) => {
   const authCtx = useContext(AuthContext);
-
   const [profileInfo, setProfileInfo] = useState("");
+  const [userID, setUserID] = useState("");
+
+  useEffect(() => {
+    setUserID(localStorage.userID);
+  }, [userID]);
+
   useEffect(() => {
     const fetchMovies = () => {
-      fetch(`http://localhost:5000/users/user/${props.id}`, {
+      fetch(`http://localhost:5000/users/${props.id}`, {
         method: "GET",
       })
         .then((res) => {

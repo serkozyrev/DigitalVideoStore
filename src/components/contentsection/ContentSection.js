@@ -1,11 +1,11 @@
 import React from "react";
 
 import "./ContentSection.css";
-import conjuring from "../../assets/conjuring.jpg";
-import widow from "../../assets/blackwidow.jpg";
-import mk from "../../assets/mk.jpg";
-import thing from "../../assets/thing.jpg";
-import jungle_cruise from "../../assets/jungle_cruise.jpg";
+import conjuring from "./conjuring.jpg";
+import widow from "./blackwidow.jpg";
+import mk from "./mk.jpg";
+import thing from "./thing.jpg";
+import jungle_cruise from "./jungle_cruise.jpg";
 const ContentSection = () => {
   return (
     <div className="posters_container">

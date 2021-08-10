@@ -39,7 +39,7 @@ function App() {
         </Route>
         <Route path="/profile">
           {authCtx.isLoggedIn && <Profile id={authCtx.username} />}!
-          {authCtx.isLoggedIn && <Redirect to="/auth" />}
+          {!authCtx.isLoggedIn && <Redirect to="/auth" />}
         </Route>
         {!authCtx.isLoggedIn && (
           <Route path="/auth" exact>

@@ -38,7 +38,7 @@ function App() {
           <ShowDetails />
         </Route>
         <Route path="/profile">
-          {authCtx.isLoggedIn && <Profile id={authCtx.username} />}!
+          {authCtx.isLoggedIn && <Profile id={authCtx.username} />}
           {!authCtx.isLoggedIn && <Redirect to="/auth" />}
         </Route>
         {!authCtx.isLoggedIn && (

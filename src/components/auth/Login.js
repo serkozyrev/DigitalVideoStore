@@ -44,17 +44,23 @@ const Login = () => {
           }
         })
         .then((data) => {
-          let username = data.userID;
-          const expirationTime = new Date(
-            new Date().getTime() + 60 * 60 * 1000
-          );
-          if (data.response === "You login Successfully") {
-            alert(data.response);
+          if (typeof data !== "undefined") {
+            if (data.response === "You login Successfully") {
+              alert(data.response);
+              let username = data.userID;
+              const expirationTime = new Date(
+                new Date().getTime() + 60 * 60 * 1000
+              );
 
-            const token = true;
-            authCtx.login(token, username, expirationTime);
-          } else {
-            alert(data.message);
+              const token = true;
+              authCtx.login(token, username, expirationTime);
+            } else {
+              alert(data.message);
+            }
+          } else if (typeof data === "undefined") {
+            alert(
+              "Your username or password were incorrect. Please provide username and password!"
+            );
           }
         });
     } catch (err) {

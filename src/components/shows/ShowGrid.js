@@ -8,7 +8,9 @@ const ShowGrid = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     const fetchShows = async () => {
-      const response = await fetch("/shows/");
+      const response = await fetch(
+        "https://fast-garden-39142.herokuapp.com/shows/"
+      );
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

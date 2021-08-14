@@ -9,7 +9,9 @@ const SearchShows = (props) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(async () => {
-    const response = await fetch(`/shows/search?title=${props.title}`);
+    const response = await fetch(
+      `https://fast-garden-39142.herokuapp.com/shows/search?title=${props.title}`
+    );
     if (!response.ok) {
       throw new Error("Something went wrong!");
     }

@@ -63,7 +63,7 @@ const Registration = () => {
     event.preventDefault();
 
     try {
-      fetch("/users", {
+      fetch("https://fast-garden-39142.herokuapp.com/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -10,7 +10,9 @@ const MovieDetails = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch(`/movies/${movieId}`);
+      const response = await fetch(
+        `https://fast-garden-39142.herokuapp.com/movies/${movieId}`
+      );
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

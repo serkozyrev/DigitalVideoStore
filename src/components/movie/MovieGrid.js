@@ -8,7 +8,9 @@ const MovieGrid = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("/movies");
+      const response = await fetch(
+        "https://fast-garden-39142.herokuapp.com/movies"
+      );
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

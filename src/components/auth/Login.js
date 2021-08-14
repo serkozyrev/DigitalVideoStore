@@ -26,7 +26,7 @@ const Login = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     try {
-      fetch("/auth", {
+      fetch("https://fast-garden-39142.herokuapp.com/auth", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

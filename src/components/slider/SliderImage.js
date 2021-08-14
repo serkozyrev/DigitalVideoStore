@@ -9,7 +9,9 @@ const SliderImage = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("/slider");
+      const response = await fetch(
+        "https://fast-garden-39142.herokuapp.com/slider"
+      );
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

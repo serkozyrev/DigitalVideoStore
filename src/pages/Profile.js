@@ -16,7 +16,7 @@ const Profile = (props) => {
 
   useEffect(() => {
     const fetchMovies = () => {
-      fetch(`/users/${props.id}`, {
+      fetch(`https://fast-garden-39142.herokuapp.com/users/${props.id}`, {
         method: "GET",
       })
         .then((res) => {

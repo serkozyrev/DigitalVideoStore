@@ -6,7 +6,7 @@ const ShowList = (props) => {
   const [shows, setShows] = useState([]);
 
   useEffect(async () => {
-    fetch("/shows")
+    fetch("https://fast-garden-39142.herokuapp.com/shows")
       .then((res) => res.json())
       .then((data) => {
         setShows(data);

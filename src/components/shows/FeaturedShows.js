@@ -7,7 +7,7 @@ const FeaturedShows = (props) => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("http://localhost:5000/featured-shows");
+      const response = await fetch("/featured-shows");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

@@ -17,19 +17,19 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/movies" activeClassName={classes.active}>
+            <NavLink to="/movies-content" activeClassName={classes.active}>
               Movie List
             </NavLink>
           </li>
           <li>
-            <NavLink to="/shows" activeClassName={classes.active}>
+            <NavLink to="/shows-content" activeClassName={classes.active}>
               Show List
             </NavLink>
           </li>
         </ul>
       </nav>
       {!authCtx.isLoggedIn && (
-        <NavLink to="/auth" className="btn">
+        <NavLink to="/authorization" className="btn">
           Login/Registration
         </NavLink>
       )}

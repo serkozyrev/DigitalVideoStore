@@ -9,7 +9,7 @@ const SliderImage = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("http://localhost:5000/slider");
+      const response = await fetch("/slider");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

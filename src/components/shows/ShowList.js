@@ -6,7 +6,7 @@ const ShowList = (props) => {
   const [shows, setShows] = useState([]);
 
   useEffect(async () => {
-    fetch("http://localhost:5000/shows")
+    fetch("/shows")
       .then((res) => res.json())
       .then((data) => {
         setShows(data);

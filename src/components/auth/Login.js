@@ -1,11 +1,9 @@
 import React, { useState, useContext } from "react";
-import { useHistory } from "react-router-dom";
 import AuthContext from "../context/auth-context";
 import "./Login.css";
 
 const Login = () => {
   const authCtx = useContext(AuthContext);
-  const history = useHistory();
   const [providedUserName, setProvidedUserName] = useState("");
   const [providedPassword, setProvidedPassword] = useState("");
   const [validatedUserName, setValidUserName] = useState();
@@ -28,7 +26,7 @@ const Login = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     try {
-      fetch("http://localhost:5000/auth", {
+      fetch("/auth", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

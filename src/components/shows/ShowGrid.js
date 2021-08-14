@@ -8,7 +8,7 @@ const ShowGrid = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     const fetchShows = async () => {
-      const response = await fetch("http://localhost:5000/shows/");
+      const response = await fetch("/shows/");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

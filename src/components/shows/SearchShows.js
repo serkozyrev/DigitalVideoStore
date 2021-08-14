@@ -9,9 +9,7 @@ const SearchShows = (props) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(async () => {
-    const response = await fetch(
-      `http://localhost:5000/shows/search?title=${props.title}`
-    );
+    const response = await fetch(`/shows/search?title=${props.title}`);
     if (!response.ok) {
       throw new Error("Something went wrong!");
     }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import "./Registration.css";
 
 const Registration = () => {
@@ -12,6 +13,7 @@ const Registration = () => {
   const [validatedEmail, setValidEmail] = useState();
   const [validatedPassword, setValidPassword] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
+
   const emailHandler = (event) => {
     setProvidedEmail(event.target.value);
   };
@@ -61,7 +63,7 @@ const Registration = () => {
     event.preventDefault();
 
     try {
-      fetch("http://localhost:5000/users", {
+      fetch("/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -80,7 +82,6 @@ const Registration = () => {
           }
         })
         .then((data) => {
-          console.log(data);
           alert(data.message);
           setProvidedFirstName("");
           setProvidedLastName("");

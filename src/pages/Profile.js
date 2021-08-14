@@ -16,7 +16,7 @@ const Profile = (props) => {
 
   useEffect(() => {
     const fetchMovies = () => {
-      fetch(`http://localhost:5000/users/${props.id}`, {
+      fetch(`/users/${props.id}`, {
         method: "GET",
       })
         .then((res) => {

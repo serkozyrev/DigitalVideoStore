@@ -9,7 +9,7 @@ const MovieList = (props) => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch("http://localhost:5000/movies");
+      const response = await fetch("/movies");
 
       if (!response.ok) {
         throw new Error("Something went wrong!");

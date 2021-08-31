@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import LoadingSpinner from "../../layout/LoadingSpinner";
 
 import "./SearchShows.css";
 import Show from "./Show";
@@ -32,7 +33,7 @@ const SearchShows = (props) => {
   if (isLoading) {
     return (
       <section className="showsLoading">
-        <p>Loading...</p>
+        <LoadingSpinner />
       </section>
     );
   }

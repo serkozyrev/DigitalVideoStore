@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LoadingSpinner from "../../layout/LoadingSpinner";
 
 import Movie from "./Movie";
 
@@ -27,7 +28,7 @@ const SearchMovie = (props) => {
   if (isLoading) {
     return (
       <section className="moviesLoading">
-        <p>Loading...</p>
+        <LoadingSpinner />
       </section>
     );
   }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import "./ShowGrid.css";
 import Show from "./Show";
+import LoadingSpinner from "../../layout/LoadingSpinner";
 
 const ShowGrid = () => {
   const [shows, setShows] = useState([]);
@@ -36,7 +37,7 @@ const ShowGrid = () => {
   if (isLoading) {
     return (
       <section className="showsLoading">
-        <p>Loading...</p>
+        <LoadingSpinner />
       </section>
     );
   }

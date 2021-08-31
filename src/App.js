@@ -12,7 +12,8 @@ import AuthContext from "./components/context/auth-context";
 const Profile = React.lazy(() => import("./pages/Profile"));
 
 import "./App.css";
-import Auth from "./pages/Auth";
+const Auth = React.lazy(() => import("./pages/Auth"));
+const AboutPage = React.lazy(() => import("./pages/AboutPage"));
 
 function App() {
   const authCtx = useContext(AuthContext);
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route path="/shows-content/:showId">
             <ShowDetails />
+          </Route>
+          <Route path="/about">
+            <AboutPage />
           </Route>
           <Route path="/profile">
             {authCtx.isLoggedIn && <Profile id={authCtx.username} />}

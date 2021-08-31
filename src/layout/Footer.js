@@ -26,12 +26,14 @@ const Footer = () => {
             <li>
               <NavLink to="/shows">Show List</NavLink>
             </li>
+            <li>
+              <NavLink to="/about">About Us</NavLink>
+            </li>
           </ul>
         </div>
         <div>
           <h2>Help</h2>
           <ul>
-            <li>About Us</li>
             <li>Support</li>
             <li>Forums</li>
             <li>Contact Us</li>

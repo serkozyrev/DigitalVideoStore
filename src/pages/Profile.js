@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useContext, Fragment } from "react";
 
 import AuthContext from "../components/context/auth-context";
-import ProfilePage from "../components/ProfilePage";
+import ProfilePage from "../components/profile/ProfilePage";
 
-import "../components/ProfilePage.css";
+import "../components/profile/ProfilePage.css";
 
 const Profile = (props) => {
   const authCtx = useContext(AuthContext);

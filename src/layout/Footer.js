@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import InstaLogo from "../components/sociallogo/InstaLogo";
 import TwitterLogo from "../components/sociallogo/TwitterLogo";
@@ -51,7 +51,9 @@ const Footer = () => {
       <span>
         <InstaLogo />
         <TwitterLogo />
-        <GitLogo />
+        <a href="https://github.com/serkozyrev?tab=repositories">
+          <GitLogo />
+        </a>
       </span>
     </footer>
   );

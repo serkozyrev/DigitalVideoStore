@@ -31,24 +31,22 @@ function App() {
           <Route path="/" exact>
             <Redirect to="/homepage" />
           </Route>
-          <Route path="/movies-content" exact>
+          <Route path="/movies" exact>
             <MovieListing />
           </Route>
-          <Route path="/movies-content/:movieId">
+          <Route path="/movies/:movieId">
             <MovieDetails />
           </Route>
           <Route path="/homepage">
             <HomePage />
           </Route>
-          <Route path="/shows-content" exact>
+          <Route path="/shows" exact>
             <ShowListing />
           </Route>
-          <Route path="/shows-content/:showId">
+          <Route path="/shows/:showId">
             <ShowDetails />
           </Route>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
+
           <Route path="/profile">
             {authCtx.isLoggedIn && <Profile id={authCtx.username} />}
             {!authCtx.isLoggedIn && <Redirect to="/auth" />}
@@ -57,7 +55,9 @@ function App() {
             <Route path="/authorization" exact>
               <Auth />
             </Route>
-          )}
+          )}<Route path="/about">
+            <AboutPage />
+          </Route>
           {authCtx.isLoggedIn && <Redirect to="/" />}
           <Route path="*">
             <Redirect to="/" />

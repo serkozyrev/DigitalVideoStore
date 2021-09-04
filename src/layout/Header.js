@@ -17,12 +17,12 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/movies-content" activeClassName={classes.active}>
+            <NavLink to="/movies" activeClassName={classes.active}>
               Movie List
             </NavLink>
           </li>
           <li>
-            <NavLink to="/shows-content" activeClassName={classes.active}>
+            <NavLink to="/shows" activeClassName={classes.active}>
               Show List
             </NavLink>
           </li>

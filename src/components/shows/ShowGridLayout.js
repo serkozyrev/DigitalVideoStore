@@ -26,22 +26,20 @@ const ShowGridLayout = (props) => {
   return (
     <div className="show_container">
       <div className="wrap">
-        <div className="search">
-          <input
-            type="text"
-            onChange={titleHandler}
-            value={title}
-            className="searchTerm"
-            placeholder="Enter part of show title"
-          />
-          <button
-            type="submit"
-            onClick={submitHandler}
-            className="searchButton"
-          >
-            <SearchLogo />
-          </button>
-        </div>
+        <form onSubmit={submitHandler}>
+          <div className="search">
+            <input
+              type="text"
+              onChange={titleHandler}
+              value={title}
+              className="searchTerm"
+              placeholder="Enter part of show title"
+            />
+            <button type="submit" className="searchButton">
+              <SearchLogo />
+            </button>
+          </div>
+        </form>
       </div>
       {searching ? <SearchShows title={title} /> : <ShowGrid />}
     </div>

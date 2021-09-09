@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-import SearchLogo from "../sociallogo/SearchLogo";
+import Search from "../../layout/Search";
 import MovieGrid from "./MovieGrid";
 import SearchMovie from "./SearchMovie";
 
@@ -13,11 +13,7 @@ const MovieGridLayout = () => {
   const titleHandler = (e) => {
     setTitle(e.target.value);
   };
-  useEffect(() => {
-    if (title.length === 0) {
-      setSearching(false);
-    }
-  }, [title]);
+
   const submitHandler = (e) => {
     e.preventDefault();
     setSearching(true);
@@ -27,18 +23,7 @@ const MovieGridLayout = () => {
     <div className="movie-container">
       <div className="wrap">
         <form onSubmit={submitHandler}>
-          <div className="search">
-            <input
-              type="text"
-              onChange={titleHandler}
-              value={title}
-              className="searchTerm"
-              placeholder="Enter part of movie title"
-            />
-            <button type="submit" className="searchButton">
-              <SearchLogo />
-            </button>
-          </div>
+          <Search title={titleHandler} />
         </form>
       </div>
       {searching ? <SearchMovie title={title} /> : <MovieGrid />}

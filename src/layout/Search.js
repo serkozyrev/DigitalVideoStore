@@ -3,19 +3,18 @@ import React from "react";
 import SearchLogo from "../components/sociallogo/SearchLogo";
 import "./Search.css";
 
-const Search = () => {
+const Search = (props) => {
   return (
-    <div className="wrap">
-      <div className="search">
-        <input
-          type="text"
-          className="searchTerm"
-          placeholder="Enter part of movie title"
-        />
-        <button type="submit" className="searchButton">
-          <SearchLogo />
-        </button>
-      </div>
+    <div className="search">
+      <input
+        type="text"
+        onChange={props.title}
+        className="searchTerm"
+        placeholder="Enter part of movie title"
+      />
+      <button type="submit" className="searchButton">
+        <SearchLogo />
+      </button>
     </div>
   );
 };

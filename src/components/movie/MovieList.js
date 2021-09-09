@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import "./MovieList.css";
 
@@ -30,7 +31,9 @@ const MovieList = (props) => {
       <div className="row__posters">
         {posts.map((post) => (
           <div className="row__poster" key={post.id}>
-            <img src={post.poster} alt={post.title} />
+            <Link to={`/movies/${post.id}`}>
+              <img src={post.poster} alt={post.title} />
+            </Link>
           </div>
         ))}
       </div>

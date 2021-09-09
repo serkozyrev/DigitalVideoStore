@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import "./ShowList.css";
 
@@ -18,7 +19,9 @@ const ShowList = (props) => {
       <div className="row__posters">
         {shows.map((show) => (
           <div className="show__poster" key={show.id}>
-            <img src={show.poster} alt={show.title} />
+            <Link to={`/shows/${show.id}`}>
+              <img src={show.poster} alt={show.title} />
+            </Link>
           </div>
         ))}
       </div>
